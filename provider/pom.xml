@@ -5,17 +5,16 @@
         <groupId>com.inspiry</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-
     <modelVersion>4.0.0</modelVersion>
+
     <artifactId>provider</artifactId>
-    <version>1.0</version>
+    <packaging>jar</packaging>
 
     <name>provider</name>
     <url>http://maven.apache.org</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <java.version>1.8</java.version>
     </properties>
 
     <dependencies>
@@ -26,5 +25,4 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
 </project>

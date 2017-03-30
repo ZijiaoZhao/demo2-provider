@@ -15,16 +15,17 @@ import java.io.IOException;
 @SpringBootApplication
 @ImportResource("classpath:provider.xml")
 public class Provider implements CommandLineRunner{
+    //spring boot方式启动
     public static void main( String[] args ) {
         SpringApplication.run(Provider.class, args);
         System.out.println( "[demo2-provider] Hello World!" );
     }
 
-    @Override
     public void run(String... args) throws Exception {
         System.out.println("service[demo2-provider] started");
     }
 
+    //spring 方式启动
 //    public static void main(String[] args) throws IOException {
 //        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("classpath:provider.xml");
 //        context.start();

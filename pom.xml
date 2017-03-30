@@ -6,10 +6,10 @@
     <groupId>com.inspiry</groupId>
     <artifactId>demo2-provider</artifactId>
     <version>1.0-SNAPSHOT</version>
-
     <modules>
         <module>provider</module>
     </modules>
+
     <packaging>pom</packaging>
 
     <name>demo2-provider</name>
@@ -50,13 +50,11 @@
             <artifactId>zkclient</artifactId>
             <version>0.7</version>
         </dependency>
-
         <dependency>
             <groupId>com.inspiry</groupId>
             <artifactId>provider</artifactId>
-            <version>1.0</version>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
-
     </dependencies>
 
 </project>
